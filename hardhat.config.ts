@@ -15,8 +15,8 @@ const config: HardhatUserConfig = {
     hardhat: {
       chainId: 31337,
     },
-    mumbai: {
-      url: `https://polygon-mumbai.g.alchemy.com/v2/${process.env.API_KEY}`,
+    mumabi: {
+      url: "https://polygon-amoy.g.alchemy.com/v2/lU0Fn0rhp1t5hBfX_xiJRpWg8qTzutqy",
       accounts: [PRIVATE_KEY]
     }
   }
